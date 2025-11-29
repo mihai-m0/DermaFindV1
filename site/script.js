@@ -1,7 +1,7 @@
 // =======================================================
 // CONFIGURARE ȘI CONSTANTE
 // =======================================================
-const API_URL = "/api/predict";
+const API_URL = "https://dermafindv1.onrender.com/api/predict";
 const PRIMARY_COLOR = "#7B1F45";
 
 // Obținem referințele la elementele HTML
