@@ -575,3 +575,16 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/* Adaugă această regulă la sfârșitul sau începutul fișierului style.css */
+.sticky-disclaimer {
+    /* FACE ELEMENTUL SĂ SE COMPORTE CA "STICKY" */
+    position: sticky; 
+    height: 10vh;
+
+    /* ÎI SPUNE UNDE SĂ SE FIXEZE (0px de sus) */
+    top: 0; 
+
+    /* ASIGURĂ CĂ RĂMÂNE DEASUPRA ALTUI CONȚINUT */
+    z-index: 1000; 
+}

@@ -1,7 +1,7 @@
 // =======================================================
 // CONFIGURARE ȘI CONSTANTE
 // =======================================================
-const API_URL = "https://dermafindv1.onrender.com/api/predict";
+const API_URL = "https://le-trigonometrical-haylee.ngrok-free.dev/api/predict";
 const PRIMARY_COLOR = "#7B1F45";
 
 // Obținem referințele la elementele HTML
