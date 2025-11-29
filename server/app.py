@@ -15,7 +15,9 @@ from tensorflow.keras.applications.efficientnet import preprocess_input
 # =======================================================
 
 # 1. Calea către fișierul modelului tău .h5
-MODEL_PATH = 'skin_cancer_B3_BALANCED.h5'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, 'skin_cancer_B3_BALANCED.h5')
+# MODEL_PATH = 'skin_cancer_B3_BALANCED.h5'
 # 2. Dimensiunea exactă de intrare a modelului
 IMAGE_SIZE = (300, 300)
 # 3. Lista numelor claselor, ÎN ORDINEA CORECTĂ A MODELULUI TĂU
